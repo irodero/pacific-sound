@@ -18,7 +18,7 @@ If you are viewing this in github, please note that this is a mirror of the offi
 To filter output from any added notebooks, issue this command. Note that this only needed once after the repository is cloned.
 
 ```shell
-git config --local include.path
+git config --local include.path .gitconfig
 ```
 
 ### Cleaning
