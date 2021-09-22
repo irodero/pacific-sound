@@ -1,0 +1,156 @@
+{
+   "DATA_COLLECTION_NAME":"MBARI-MARS",
+   "PUBLISH_DATE":"2020-11-15",
+   "PROJECT_NAME":"Pacific Ocean Sound Recordings",
+   "DEPLOYMENT_NAME":"01",
+   "SITE":"Smooth Ridge, continental slope, Northeast Pacific Ocean",
+   "SITE_ALIASES":[
+      "Monterey Bay National Marine Sanctuary, California, USA"
+   ],
+   "PLATFORM_NAME":"Monterey Accelerated Research System (MARS) cabled observatory",
+   "INSTRUMENT_TYPE":"Hydrophone",
+   "INSTRUMENT_ID":"Ocean Sonics icListen HF (SN 1331) with GeoSpectrum Model M24HF element (SN 1073)",
+   "TITLE":"Pacific Ocean Sound Recordings",
+   "ABSTRACT":"Since 28 July 2015 the Monterey Bay Aquarium Research Institute (MBARI) has recorded sound in the deep ocean off central California by streaming from a hydrophone connected to a cabled observatory.",
+   "PURPOSE":"These recordings are intended for applications to research, education, and the arts.  They contain sounds of marine life (biophony), human activities (anthrophony), and Earth processes (geophony) - including sounds within and outside the range of human hearing.",
+   "DEPLOYMENT":{
+      "DEPLOYMENT_TIME":"2015-07-28T18:00:00",
+      "AUDIO_START":"2015-07-28T18:05:24",
+      "RECOVERY_TIME":"2017-06-13T16:00:00",
+      "AUDIO_END":"2017-06-13T15:45:17",
+      "DEPLOY_TYPE":"Stationary Marine",
+      "SEA_AREA":"North Pacific Ocean",
+      "DEPLOY_LAT":"36.7128",
+      "DEPLOY_LON":"-122.186",
+      "DEPLOY_SHIP":"R/V Rachel Carson",
+      "DEPLOY_INSTRUMENT_DEPTH":"-890",
+      "DEPLOY_BOTTOM_DEPTH":"-891",
+      "RECOVER_LAT":"36.7128",
+      "RECOVER_LON":"-122.186",
+      "RECOVER_SHIP":"R/V Rachel Carson",
+      "RECOVER_INSTRUMENT_DEPTH":"-890",
+      "RECOVER_BOTTOM_DEPTH":"-891"
+   },
+   "SENSORS":{
+      "AUDIO":[
+         {
+            "TYPE":"Audio Sensor",
+            "NUMBER":"1",
+            "ID":"1331 ",
+            "NAME":"Ocean Sonics icListen HF",
+            "DESCRIPTION":"broadband digital hydrophone",
+            "HYDRO_ID":"GeoSpectrum Model M24HF element SN 1073"
+         }
+      ]
+   },
+   "CHANNELS":{
+      "1":{
+         "CHANNEL_START":"2015-07-28T18:05:24",
+         "CHANNEL_END":"2017-06-13T15:45:17",
+         "SENSOR":"1",
+         "SAMPLING_DETAILS":{
+            "SAMPLING":[
+               {
+                  "START":"2015-07-28T18:05:24",
+                  "END":"2017-06-13T15:45:17",
+                  "SAMPLE_RATE_Hz":"256000",
+                  "SAMPLE_BITS":"24",
+                  "FULL_SCALE_VOLTAGE":"3V; peak-to-peak = 6V",
+                  "VOLTS_MEASURED":"Vm = (3*count)/(2^23 -1)"
+               }
+            ]
+         }
+      }
+   },
+   "QUALITY_DETAILS":{
+      "QUALITY_DETAILS":[
+         {
+            "QUALITY":"raw wav files",
+            "LOW_FREQ_Hz":"10",
+            "HIGH_FREQ_Hz":"100000",
+            "START":"2015-07-28T18:05:24",
+            "END":"2017-06-13T15:45:17",
+            "COMMENTS":"Temporal coverage is approximately 95%; intermittent gaps of variable duration exist in the time-series.",
+            "CHANNELS":"1"
+         }
+      ]
+   },
+   "CALIBRATION":{
+      "ID":"C3147,C3148",
+      "TimeStamp":"2015-01-20",
+      "Type":"Laboratory",
+      "Method":"RX Sensitivity, Complex RMS",
+      "ResponsibleParty":"M. Ceekala, Ocean Sonics",
+      "FrequencyResponse_Hz":[
+         26,
+         10000,
+         20100,
+         30100,
+         40200,
+         50200,
+         60200,
+         70300,
+         80300,
+         90400,
+         100400,
+         110400,
+         120500,
+         130500,
+         140500,
+         150600,
+         160600,
+         170700,
+         180700,
+         190700,
+         200000
+      ],
+      "FrequencyResponse_dB":[
+         -168.80,
+         -169.70,
+         -170.80,
+         -170.95,
+         -171.20,
+         -171.60,
+         -170.90,
+         -170.90,
+         -172.55,
+         -173.90,
+         -173.85,
+         -172.75,
+         -171.05,
+         -170.45,
+         -169.30,
+         -169.00,
+         -167.85,
+         -166.95,
+         -169.60,
+         -173.55,
+         -176.30
+      ]
+   },
+   "SPONSORS":[
+      {
+         "NAME":"Monterey Bay Aquarium Research Institute"
+      },
+      {
+         "NAME":"AWS Open Data Program"
+      }
+   ],
+   "FUNDERS":[
+      {
+         "NAME":"David and Lucile Packard Foundation"
+      }
+   ],
+   "METADATA_AUTHOR":{
+      "NAME":"John Ryan",
+      "ORGANIZATION":"MBARI",
+      "POSITION":"Research Specialist",
+      "STREET":"7700 Sandholdt Road",
+      "CITY":"Moss Landing",
+      "STATE":"CA",
+      "ZIP":"95039",
+      "COUNTRY":"USA",
+      "EMAIL":"ryjo@mbari.org",
+      "PHONE":"(831) 775-1978"
+   }
+}

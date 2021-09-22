@@ -1,0 +1,23 @@
+{
+    "branch": "master",
+    "plugins": [
+        "commitizen",
+        "@semantic-release/commit-analyzer",
+        "@semantic-release/release-notes-generator",
+        [
+            "@semantic-release/changelog",
+            {
+                "changelogFile": "docs/docs/CHANGELOG.md",
+                "changelogTitle": "# Pacific Sound Changelog"
+            }
+        ],
+        [
+            "@semantic-release/git",
+            {
+                "assets": [
+                    "CHANGELOG.md"
+                ]
+            }
+        ]
+    ]
+}    
