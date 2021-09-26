@@ -5,7 +5,7 @@
 |Model |size<br><sup>(pixels) | F1 | accuracy <sup>val | example true | example false  | data used |
 |---|---|---|---|---|--- |  ---|   
 |[blueA](https://pacific-sound-models.s3.amazonaws.com//bluewhale-a-resnet50-2021-09-22-21-05-23-858.tar.gz) <sup>1    |224 | 0.9112 | **0.9133** | ![ Image link ](imgs/bat.png)| ![ Image link ](imgs/baf.png)| 2 kHz data in s3://pacific-sound-2khz |
-|[blueD](https://pacific-sound-models.s3.amazonaws.com/bluewhale-d-efnetb0-2021-08-31-14-37-02-268.tar.gz) <sup>2     |224 | 0.9415 | **.9490** | ![ Image link ](imgs/bdt.png)| ![ Image link ](imgs/bdf.png) | 2 kHz data in s3://pacific-sound-2khz |
+    |[blueD](https://pacific-sound-models.s3.amazonaws.com/bluewhale-d-resnet50-2021-09-24-03-42-22-608.tar.gz) <sup>2     |224 | 0.9374 | **0.9391** | ![ Image link ](imgs/bdt.png)| ![ Image link ](imgs/bdf.png) | 2 kHz data in s3://pacific-sound-2khz |
 
 ### Using the classification models
 
