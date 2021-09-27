@@ -1,11 +1,12 @@
-**SageMaker**  is a service in AWS that can accelerate data analysis of the huge volume of 
-data freely available in the pacific-sound registry using machine learning. SageMaker allows for collaborative sharing 
-of notebooks, easy ways to scale compute and storage resources for the problem at hand, and a seamless path to move 
-from development to production. 
+**SageMaker**  is a service in [AWS](https://aws.amazon.com) that can accelerate data analysis of the huge volume of 
+data freely available in the [pacific-sound](https://registry.opendata.aws/pacific-sound) registry using machine learning.
+SageMaker allows for collaborative sharing of jupyter notebooks, easy ways to scale compute and storage resources for the 
+problem at hand, and a seamless path to move from development to production. 
 
 To use SageMaker:
 
-  1. [Setup an Amazon cloud account if you don't already have one](https://docs.aws.amazon.com/sagemaker/latest/dg/gs-set-up.html). You will only be charged for the service you use.  Here is a [pricing calculator](https://aws.amazon.com/sagemaker/pricing/).
+  1. [Setup an Amazon cloud account if you don't already have one](https://docs.aws.amazon.com/sagemaker/latest/dg/gs-set-up.html). 
+You will only be charged for the service you use.  Here is a [pricing calculator](https://aws.amazon.com/sagemaker/pricing/).
   2. If you are new to SageMaker, read [this.](https://docs.aws.amazon.com/sagemaker/latest/dg/whatis.html#first-time-user)
   3. [Follow these instructions to launch a SageMaker Studio session.](https://docs.aws.amazon.com/sagemaker/latest/dg/onboard-quick-start.html)
   4. Once you have your session open, this repository can be retrieved as follows:
